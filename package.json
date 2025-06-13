@@ -1,14 +1,9 @@
 {
-  "name": "goat-bot-v2",
-  "version": "1.5.35",
-  "description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
+  "name": "raj-bot",
+  "version": "1.0.0",
   "main": "index.js",
-  "engines": {
-    "node": "18.x",
-    "npm": ">=7.0.0"
-  },
   "scripts": {
-    "start": "NODE_ENV=production node index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@distube/ytdl-core": "^4.13.3",
@@ -39,7 +34,6 @@
     "node-cron": "^3.0.2",
     "nodemailer": "^6.7.5",
     "npmlog": "^7.0.1",
-    "nayan-videos-downloader": "^0.1.0",
     "ora": "^5.4.1",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
